@@ -1,0 +1,49 @@
+{
+  "name": "@dashkite/enchant-decorator",
+  "version": "0.0.0",
+  "description": "Decorate Sky API Descriptions based on Enchant Policies",
+  "exports": {
+    ".": {
+      "node": "./build/node/src/index.js"
+    }
+  },
+  "main": "build/node/src/index.js",
+  "files": [
+    "build/node/src"
+  ],
+  "scripts": {
+    "test": "genie test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashkite/enchant-decorator.git"
+  },
+  "keywords": [],
+  "contributors": [
+    {
+      "name": "Dan Yoder",
+      "email": "dan@dashkite.com"
+    },
+    {
+      "name": "Chand Rajendra-Nicolucci",
+      "email": "chand@dashkite.com"
+    }
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/dashkite/enchant-decorator/issues"
+  },
+  "homepage": "https://github.com/dashkite/enchant-decorator#readme",
+  "devDependencies": {
+    "@dashkite/amen": "^0.1.2",
+    "@dashkite/amen-console": "^0.0.1",
+    "@dashkite/assert": "^0.1.4",
+    "@dashkite/genie": "^0.5.6",
+    "@dashkite/genie-presets": "^0.5.6"
+  },
+  "dependencies": {
+    "@dashkite/enchant": "file:../enchant",
+    "@dashkite/joy": "^0.3.16",
+    "@dashkite/sky-api-description": "file:../sky-api-description"
+  }
+}

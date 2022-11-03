@@ -1,0 +1,9 @@
+acme.io:
+  - request:
+      - conditions:
+          - name: resource
+            value: foo
+          - name: authorize
+            value: [ rune ]
+        actions:
+          - name: forward
